@@ -1,0 +1,35 @@
+{
+  "name" : "Save To Session",
+  "version" : "1.0",
+  "description" : "This dynamic action plugin is used to save one or more item values in the session state.",
+  "keywords" : ["save", "session"],
+  "homepage" : "https://github.com/maxime-tremblay/apex-plugin-savetosession",
+  "bugs" : {
+    "url" : "https://github.com/maxime-tremblay/apex-plugin-savetosession/issues",
+    "email" : "askmax@askmax.solutions"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "Maxime Tremblay",
+    "email" : "askmax@askmax.solutions",
+    "twitter" : "askMaxSolutions",
+    "donationUrl" : "https://paypal.me/mtremblaydev/3",
+    "url" : "https://askmax.solutions/"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/maxime-tremblay/apex-plugin-savetosession.git"
+  },
+  "oracle" : {
+    "versions" : ["11.2.0.1", "12.1.0.1", "12.2.0.1", "18.1.0.0", "21.1.0.0"],
+    "apex" : {
+      "versions" : ["5.0.4","5.1.4","18.1.0","18.2.0","19.1.0","19.2.0","20.1.0","20.2.0","21.1.0","21.2.0","22.1.0","22.2.0","23.1.0"],
+      "plugin" : {
+        "internalName" : "SOLUTIONS.ASKMAX.SAVE_TO_SESSION",
+        "type" : "dynamic action",
+        "demo" : "https://askmax.solutions/ords/f?p=plg_save_to_session",
+        "previewImage" : "https://raw.githubusercontent.com/maxime-tremblay/apex-plugin-savetosession/master/preview.gif"
+      }
+    }
+  }
+}
