@@ -44,6 +44,6 @@ List of application item(s) to be set into session state. For multiple items, se
 
 <a name="preview_image"></a>
 ## Preview
-## ![](https://github.com/maxime-tremblay/apex-plugin-savetosession/blob/master/preview.gif)
+## ![](https://raw.githubusercontent.com/maxime-tremblay/apex-plugin-savetosession/main/preview.gif)
 
 [⬆ back to top](#top)
